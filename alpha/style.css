@@ -1,0 +1,195 @@
+/*
+Theme Name: Alpha
+Theme URI: https://bayazid.me/alpha
+Author: Bayazid hasan
+Author URI: https://bayazid.me
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: alpha
+Tags: blog, education
+*/
+
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+    font-family: Arial;
+    margin:auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p{
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+.post p img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post:last-child .row:nth-child(2){
+    border-bottom:none;
+}
+
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color:#ccc;
+}
+
+.tags li{
+    color: #3D9970;
+}
+.post-pagination{
+    margin-bottom: 30px;
+}
+.header.page-header {
+    background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin-bottom: 30px;
+    padding: 70px 0;
+}
+/* .navigation {
+	margin-bottom: 73px;
+} */
+.custom-logo{
+    margin-top: 30px;
+}
+.custom-logo img{
+    border-radius: 50%;
+}
+.error-view{
+    margin-top: 140px;
+    margin-bottom: 150px;
+}
+.dashicons{
+    font-size: 45px;
+}
+.autho-section {
+	margin: 38px 0;
+	padding: 20px;
+    box-shadow: 1px 0px 6px #888888;
+    background-color: #fff;
+}
+.single-tag-title{
+    margin: 20px 0 40px 0;
+}
+.mb50{
+    margin-bottom: 70px;
+}
+.mt50{
+    margin-top: 70px;
+}
+.testimonials{
+    margin-top: 20px;
+}
+.testimonials img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+h2.post-title {
+	margin-bottom: 30px;
+    margin-top: 50px;
+}
+.team img{
+    width: 100px;
+    height: auto;
+}
+.teams,.team{
+   width: 100%;
+}
+.team{
+    display: flex;
+    margin-top: 80px;
+}
+.single-team {
+	border: 1px solid #333;
+	margin-left: 2px;
+}
+.single-team:first-child{
+    margin-left: 0;
+}
+.search-highlight{
+    background-color: #ff0;
+    font-weight: bold;
+}
+.single_meta_information {
+	background-color: #ffffff;
+	padding: 30px;
+	margin: 30px 0;
+    box-shadow: 1px 0px 6px #888888;
+}
+.related_posts {
+	background-color: #ffffff;
+	padding: 50px;
+	margin: 50px 0;
+    box-shadow: 1px 0px 6px #888888;
+}
+.pricing_table {
+	text-align: center;
+	background-color: #fff;
+	padding: 40px 0;
+	margin-bottom: 60px;
+}
+.pricing-table-item h2 {
+	color: #f9f9f9;
+	background: #100bb7;
+}
+.pricing-table-item {
+	height: 200px;
+	overflow: auto;
+    box-shadow: 1px 0px 6px #888888;
+}
+
+.row.services {
+	margin-bottom: 40px;
+}
+.service-item {
+	background-color: #fff;
+	padding: 40px 0;
+	margin: 20px 0;
+	box-shadow: 1px 0px 6px #888888;
+}
+.service-item i {
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	background-color: #100bb7;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 50px;
+	margin-bottom: 21px;
+}
